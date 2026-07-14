@@ -1,0 +1,16 @@
+from langchain_huggingface import HuggingFaceEmbeddings
+
+embedding = HuggingFaceEmbeddings(
+    model_name = "sentence-transformers/all-MiniLM-L6-v2"
+
+)
+
+texts = [
+    "hello this is shivam dwivedi",
+    "hello your name is youtube",
+    "And you are all very beautiful"
+]
+
+vector = embedding.embed_documents(texts=texts)
+
+print(vector)
