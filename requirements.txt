@@ -1,0 +1,114 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+langchain-openai
+langchain-google-genai
+langchain-groq
+langchain-mistralai
+python-dotenv
+faiss-cpu
+tiktoken
+fastapi
+uvicorn
+requests
+langchain_huggingface
+sentence-transformers
+# ==========================
+# Core LangChain
+# ==========================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ==========================
+# LLM Providers
+# ==========================
+langchain-mistralai
+langchain-openai
+langchain-google-genai
+langchain-huggingface
+
+# ==========================
+# Embedding Models
+# ==========================
+sentence-transformers
+transformers
+torch
+
+# ==========================
+# Vector Databases
+# ==========================
+chromadb
+
+# ==========================
+# Document Loaders
+# ==========================
+pypdf
+pymupdf
+python-docx
+unstructured
+markdown
+beautifulsoup4
+lxml
+
+# ==========================
+# Environment Variables
+# ==========================
+python-dotenv
+
+# ==========================
+# API Framework
+# ==========================
+fastapi
+uvicorn
+
+# ==========================
+# UI
+# ==========================
+streamlit
+
+# ==========================
+# Data Processing
+# ==========================
+pandas
+numpy
+
+# ==========================
+# Token Counting
+# ==========================
+tiktoken
+
+# ==========================
+# HTTP Requests
+# ==========================
+requests
+httpx
+
+# ==========================
+# Utilities
+# ==========================
+tqdm
+typing-extensions
+
+# ==========================
+# Optional Reranking
+# ==========================
+rank-bm25
+
+# ==========================
+# Optional Monitoring
+# ==========================
+langsmith
+
+# ==========================
+# Optional OCR
+# ==========================
+pytesseract
+Pillow
+
+# ==========================
+# Logging
+# ==========================
+loguru
